@@ -1,3 +1,13 @@
+## contianer connect
+* container之間彼此互相獨立，溝通都是靠network
+* 相同network之間才可以互相溝通
+
+&emsp;&emsp;
+<img src="https://user-images.githubusercontent.com/24542187/172291303-5c76a527-819c-4f3a-856b-7d5ac29c4f8f.png" width="600">
+
+圖片來源:  
+https://www.freecodecamp.org/news/how-to-get-a-docker-container-ip-address-explained-with-examples/
+
 ## 透過container查詢docker-compose.yml位置
 ```sh
 docker inspect nginx18 | grep com.docker.compose
@@ -30,7 +40,8 @@ docker exec [container_name] composer
 直接進到container裡面cd到要進行composer的資料夾可能比較方便
 
 
-## 修改docker-compose.yml
+## 修改container設定
+修改docker-compose.yml
 可以直接下`docker-compose up -d`，會自動偵測更改的地方
 
 
