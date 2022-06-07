@@ -1,7 +1,7 @@
 ## container connect
 * container之間彼此互相獨立，溝通都是靠network
 * 相同network之間才可以互相溝通
-* network create預設的Driver是bridge，也就是說在同個bridge下才可以溝通
+* network create預設的Driver是bridge，相同network意思就是在同個bridge下才可以溝通
 
 &emsp;&emsp;
 <img src="https://user-images.githubusercontent.com/24542187/172291303-5c76a527-819c-4f3a-856b-7d5ac29c4f8f.png" width="600">
