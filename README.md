@@ -1,4 +1,4 @@
-## contianer connect
+## container connect
 * container之間彼此互相獨立，溝通都是靠network
 * 相同network之間才可以互相溝通
 
