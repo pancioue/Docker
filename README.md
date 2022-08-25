@@ -43,7 +43,8 @@ docker exec [container_name] composer
 
 ## 修改container設定
 修改docker-compose.yml
-可以直接下`docker-compose up -d`，會自動偵測更改的地方
+可以直接下`docker-compose up -d`，會自動偵測更改的地方  
+如果只想重啟單一container 可以下`docker-compose up -d --build mysql`
 
 
 ## internal localhost
